@@ -2,7 +2,7 @@
 Соглашения о написании кода на C#
 
 ## Регистр Pascal
-#####Используйте регистр pascal ("PascalCasing") при именовании **class**, **record** или **struct**.
+##### Используйте регистр pascal ("PascalCasing") при именовании **class**, **record** или **struct**.
 ```
 public class DataService 
 {
@@ -20,7 +20,7 @@ public struct ValueCoordinate
 {
 }
 ```
-#####При присвоении interfaceимени используйте регистр pascal в дополнение к префиксу имени с помощью **I**. Это явно указывает потребителям, что это **interface**.
+##### При присвоении interfaceимени используйте регистр pascal в дополнение к префиксу имени с помощью **I**. Это явно указывает потребителям, что это **interface**.
 ```
 public interface IWorkerQueue
 {
