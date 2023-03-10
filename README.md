@@ -74,3 +74,9 @@ public class DataService
     private static TimeSpan t_timeSpan;
 }
 ```
+##### При написании параметров метода используйте регистр верблюда.
+```
+public T SomeMethod<T>(int someNumber, bool isValid)
+{
+}
+```
