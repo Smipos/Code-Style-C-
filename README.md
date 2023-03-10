@@ -56,3 +56,11 @@ public record PhysicalAddress(
     string StateOrProvince,
     string ZipCode);
 ```
+## Регистр camelCasing
+##### Используйте верблюдьий регистр ("camelCasing") при именовании **private полей** и **internal** примените к ним префикс  **_**.
+```
+public class DataService
+{
+    private IWorkerQueue _workerQueue;
+}
+```
