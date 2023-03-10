@@ -64,3 +64,4 @@ public class DataService
     private IWorkerQueue _workerQueue;
 }
 ```
+##### При работе с **полями static** , которые являются **private** или **internal**, используйте ** s_ ** префикс , а для потока статический используйте t_.
