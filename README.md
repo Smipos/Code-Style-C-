@@ -50,7 +50,6 @@ public class ExampleEvents
 ```
 ##### При записи позиционных записей используйте регистр pascal для параметров, так как они служат общедоступными свойствами записи.
 ```
-Копировать
 public record PhysicalAddress(
     string Street,
     string City,
