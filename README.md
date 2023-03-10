@@ -3,12 +3,12 @@
 
 ## Регистр Pascal
 Используйте регистр pascal ("PascalCasing") при именовании class, recordили struct.
-`
+```
 public class DataService 
 {
 
 }
-`
+```
 
 
 
