@@ -6,21 +6,17 @@
 ```
 public class DataService 
 {
-
 }
 ```
-
-
-
-Копировать
+```
 public record PhysicalAddress(
     string Street,
     string City,
     string StateOrProvince,
     string ZipCode);
-C#
-
-Копировать
+```
+```
 public struct ValueCoordinate
 {
 }
+```
